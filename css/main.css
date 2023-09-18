@@ -1,0 +1,511 @@
+/* <!---------------------------------------------------------
+        -------------------------------------------------------
+        ------------------- MAIN CONTENT ----------------------
+    ------------------------section--1----------------------
+--- ----------------------------------------------------------> */
+
+
+.a-link{
+  display: inline;
+  color: rgb(105, 105, 235);
+  cursor: pointer;
+}
+
+.a-link:hover{
+  text-decoration: underline;
+}
+
+.comp-image {
+  display: block;
+  width: 100%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 {
+  padding: 20px;
+  background-color: rgba(245, 245, 245);
+  margin-top: 30px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+h4 {
+  line-height: 25px;
+}
+
+.read-more {
+  font-size: 14px;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #56aed4;
+  margin: 20px 0;
+  border-radius: 7px;
+}
+
+.reasons {
+  margin-top: 40px;
+}
+
+.numbering {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.num {
+  font-size: 45px;
+}
+
+.other-images {
+  min-width: 150px;
+}
+
+
+/* <!---------------------------------------------------------
+        ------------------- Section-2 ----------------------
+    ----------------------------------------------------------> */
+
+    
+
+.section-2-img-desk {
+  display: none;
+}
+
+.section-2 {
+  position: relative;
+  background-color: rgba(245, 245, 245);
+}
+
+.section-2-img-mob {
+  width: 100%;
+}
+
+.section-2-content {
+  background-color: transparent;
+  position: absolute;
+  bottom: 30px;
+  padding: 0 30px;
+}
+
+.arrow-list {
+  margin-bottom: 15px;
+}
+
+.sky-blue {
+  display: block;
+  width: 98px;
+  padding: 7px 10px;
+  color: white;
+  background-color: skyblue;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.orange {
+  display: block;
+  width: 98px;
+  padding: 7px 10px;
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* <!---------------------------------------------------------
+        ------------------- Section-3 ----------------------
+    ----------------------------------------------------------> */
+
+.section-3 {
+  padding: 20px;
+  background-color: rgba(245, 245, 245);
+}
+
+.staff {
+  display: block;
+  width: 300px;
+  border-radius: 200px;
+  margin: auto;
+}
+
+.jane {
+  color: skyblue;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.text-message-box {
+  min-width: 360px;
+  max-height: 500px;
+  border: 2px solid skyblue;
+  margin-top: 20px;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-top: 30px solid skyblue;
+  margin-left: 25px;
+}
+
+.text-message-tracker {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 50px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.message-trackers {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.text-message1,
+.text-message2,
+.text-message3{
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 40px;
+}
+
+.text-message1 p,
+.text-message2 p,
+.text-message3 p{
+  margin-bottom: -50px;
+  line-height: 25px;
+}
+
+/* <!---------------------------------------------------------
+        ------------------- Section-4 ----------------------
+    ----------------------------------------------------------> */
+
+.section-4 {
+  padding: 20px;
+}
+
+.hr-line {
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid skyblue;
+  margin-top: 50px;
+}
+
+.arrow-up {
+  color: white;
+  background-color: skyblue;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-top: -33px;
+  font-weight: bolder;
+  transition: transform 0.7s ease-in-out;
+}
+
+.transforming-arrow-up {
+  text-align: center;
+}
+
+.transforming-arrow-up:hover .arrow-up {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.underline {
+  display: flex;
+  margin-bottom: 10px;
+}
+.blue_line {
+  width: 20%;
+  height: 4px;
+  background-color: #56aed4;
+}
+
+.gray_line {
+  width: 80%;
+  height: 1px;
+  background-color: #e1e0df;
+}
+
+h4 a {
+  display: block;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid skyblue;
+  color: rgb(105, 105, 235);
+}
+
+li {
+  list-style-type: none;
+}
+
+.contact-us {
+  margin-bottom: 50px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+  border: 2px solid skyblue;
+  border-radius: 7px;
+  margin: 20px 0;
+}
+
+.submit-button {
+  padding: 4px 7px;
+  font-size: 16px;
+  color: white;
+  background-color: #56aed4;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.social-icons {
+  width: 30px;
+  margin: 5px;
+  padding: 7px;
+  background-color: rgb(173, 228, 250);
+  border-radius: 15px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: rgb(105, 105, 235);
+}
+
+.bottom-mobile-transform-icon {
+  color: white;
+  font-size: 30px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.transform-bottom {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+}
+
+.transforming-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  padding: 10px 15px;
+  background-color: rgb(99, 42, 99);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  cursor: pointer;
+}
+
+.transforming-bottom:hover .bottom-mobile-transform-icon,
+.transforming-bottom:hover {
+  transform: rotate(360deg);
+  background-color: rgb(60, 136, 167);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.rights {
+  display: inline;
+}
+
+a.bottom-links {
+  display: inline;
+  text-decoration: none;
+  border: none;
+}
+
+@media (min-width: 980px) {
+
+  .text1,
+  .text2,
+  .text3{
+    visibility: visible;
+    color: rgba(255, 255, 255, 0.596);
+    
+  }
+
+  .text1:hover,
+  .text2:hover,
+  .text3:hover{
+    visibility: visible;
+    color: white;
+  }
+
+  .transparent-headings {
+    display: block;
+  }
+  .mobile-navigation {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: #272727;
+    color: white;
+    margin-top: -5px;
+  }
+
+  .desktop-transforming {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .desktop-transform-icon {
+    font-size: 50px;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+  }
+
+  .transforming:hover .desktop-transform-icon {
+    transform: rotate(360deg);
+  }
+
+  .desktop-transform {
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 30px;
+    list-style-type: none;
+    width: 480px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+  .section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    vertical-align: auto;
+    gap: 30px;
+    max-width: 100%;
+    max-height: 800px;
+  }
+
+  .reasons {
+    margin-top: 0;
+  }
+
+  .others {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .first-other-content-text {
+    margin-top: 50px;
+    margin-left: -50px;
+    padding-left: 20px;
+  }
+
+  .from-blog {
+    margin-top: 0;
+    white-space: nowrap;
+  }
+
+  .section-2-img-mob {
+    display: none;
+  }
+
+  .arrow-list {
+    margin-bottom: 5px;
+  }
+
+  .section-2-img-desk {
+    display: block;
+    width: 100%;
+  }
+
+  .section-2-content {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+  }
+
+  .section-2-arrow-list {
+    margin-bottom: 20px;
+  }
+
+  .sky-blue,
+  .orange {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .section-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 100%;
+    max-height: 650px;
+  }
+
+  .staff {
+    width: 200px;
+  }
+
+  .staff-card {
+    display: flex;
+    min-width: 500px;
+    gap: 5px;
+    margin-top: 20px;
+  }
+
+  .job-title {
+    margin-bottom: 10px;
+  }
+
+  .section-4 {
+    max-width: 100%;
+    max-height: 600px;
+  }
+
+  .section-4-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+  }
+
+}
